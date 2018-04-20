@@ -126,7 +126,7 @@ html, body {
 }
 
 
-@media all and (min-width: 1200px) {
+@media (min-width: 1200px) {
 	.print-image {
 	width: 31%;
 	margin: 10px;
@@ -134,7 +134,7 @@ html, body {
 }
 
 
-@media all and (max-width: 1200px) and (min-width: 1050px) {
+@media (min-width: 1050px) and (max-width: 1200px) {
 	.print-image {
 	width: 48%;
 	margin: 10px;
@@ -142,7 +142,7 @@ html, body {
 }
 
 
-@media all and (max-width: 1050px) {
+@media (max-width: 1050px) {
 	.print-image {
 	width: 100%;
 	margin: 10px;
