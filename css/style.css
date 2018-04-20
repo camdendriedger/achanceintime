@@ -318,14 +318,16 @@ html, body {
 }
 
 #slide-1 {
-	top: 100%;
+	
 	opacity: 0;
 	width: 100%;
-	margin-bottom: 49%;
+	
 	position: relative;
 	background-image: url('../img/cover.jpg');
 	background-size: cover;
 }
+
+
 
 .slide-image {
 	height: 100%;
